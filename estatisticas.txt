@@ -1,0 +1,4 @@
+Total de palavras: 227
+Total de linhas: 7
+Média de palavras por linha: 32.4286
+Palavra mais frequente: a (aparece 9 vezes)
