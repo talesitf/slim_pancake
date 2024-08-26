@@ -1,0 +1,52 @@
+[compute00:67044:0:67044] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x7ffd20951240)
+[compute00:67043:0:67043] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x7fff2f31f000)
+==== backtrace (tid:  67044) ====
+ 0  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(ucs_handle_error+0x294) [0x7f75da094e24]
+ 1  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(+0x2cfdf) [0x7f75da094fdf]
+ 2  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(+0x2d2a6) [0x7f75da0952a6]
+ 3  /lib64/libc.so.6(+0x3e6f0) [0x7f75da53b6f0]
+ 4  /lib64/libc.so.6(+0x15994d) [0x7f75da65694d]
+ 5  /opt/ohpc/pub/mpi/openmpi5-gnu13/5.0.3/lib/libopen-pal.so.80(+0xd1ab5) [0x7f75da4a8ab5]
+ 6  /opt/ohpc/pub/mpi/openmpi5-gnu13/5.0.3/lib/libmpi.so.40(mca_pml_ob1_send_request_schedule_once+0x1d3) [0x7f75dad13083]
+ 7  /opt/ohpc/pub/mpi/openmpi5-gnu13/5.0.3/lib/libmpi.so.40(mca_pml_ob1_recv_frag_callback_ack+0x151) [0x7f75dad0a821]
+ 8  /opt/ohpc/pub/mpi/openmpi5-gnu13/5.0.3/lib/libopen-pal.so.80(mca_btl_sm_poll_handle_frag+0x97) [0x7f75da4a9de7]
+ 9  /opt/ohpc/pub/mpi/openmpi5-gnu13/5.0.3/lib/libopen-pal.so.80(+0xd30e3) [0x7f75da4aa0e3]
+10  /opt/ohpc/pub/mpi/openmpi5-gnu13/5.0.3/lib/libopen-pal.so.80(opal_progress+0x2c) [0x7f75da400a2c]
+11  /opt/ohpc/pub/mpi/openmpi5-gnu13/5.0.3/lib/libmpi.so.40(+0x2937cc) [0x7f75dad027cc]
+12  /opt/ohpc/pub/mpi/openmpi5-gnu13/5.0.3/lib/libmpi.so.40(mca_pml_ob1_send+0x29a) [0x7f75dad04e4a]
+13  /opt/ohpc/pub/mpi/openmpi5-gnu13/5.0.3/lib/libmpi.so.40(ompi_coll_base_sendrecv_actual+0xb5) [0x7f75dab7a925]
+14  /opt/ohpc/pub/mpi/openmpi5-gnu13/5.0.3/lib/libmpi.so.40(ompi_coll_base_allgather_intra_recursivedoubling+0x11b) [0x7f75dab78adb]
+15  /opt/ohpc/pub/mpi/openmpi5-gnu13/5.0.3/lib/libmpi.so.40(ompi_coll_tuned_allgather_intra_dec_fixed+0x4a) [0x7f75dabaf05a]
+16  /opt/ohpc/pub/mpi/openmpi5-gnu13/5.0.3/lib/libmpi.so.40(PMPI_Allgather+0x14a) [0x7f75dab1eaba]
+17  ./convolucao3() [0x401b91]
+18  /lib64/libc.so.6(+0x29590) [0x7f75da526590]
+19  /lib64/libc.so.6(__libc_start_main+0x80) [0x7f75da526640]
+20  ./convolucao3() [0x401d45]
+=================================
+==== backtrace (tid:  67043) ====
+ 0  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(ucs_handle_error+0x294) [0x7f12c6090e24]
+ 1  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(+0x2cfdf) [0x7f12c6090fdf]
+ 2  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(+0x2d2a6) [0x7f12c60912a6]
+ 3  /lib64/libc.so.6(+0x3e6f0) [0x7f12c65376f0]
+ 4  /lib64/libc.so.6(+0x159c4a) [0x7f12c6652c4a]
+ 5  /opt/ohpc/pub/mpi/openmpi5-gnu13/5.0.3/lib/libopen-pal.so.80(+0xd1ab5) [0x7f12c64a4ab5]
+ 6  /opt/ohpc/pub/mpi/openmpi5-gnu13/5.0.3/lib/libmpi.so.40(mca_pml_ob1_send_request_schedule_once+0x1d3) [0x7f12c6d0f083]
+ 7  /opt/ohpc/pub/mpi/openmpi5-gnu13/5.0.3/lib/libmpi.so.40(mca_pml_ob1_recv_frag_callback_ack+0x151) [0x7f12c6d06821]
+ 8  /opt/ohpc/pub/mpi/openmpi5-gnu13/5.0.3/lib/libopen-pal.so.80(mca_btl_sm_poll_handle_frag+0x97) [0x7f12c64a5de7]
+ 9  /opt/ohpc/pub/mpi/openmpi5-gnu13/5.0.3/lib/libopen-pal.so.80(+0xd30e3) [0x7f12c64a60e3]
+10  /opt/ohpc/pub/mpi/openmpi5-gnu13/5.0.3/lib/libopen-pal.so.80(opal_progress+0x2c) [0x7f12c63fca2c]
+11  /opt/ohpc/pub/mpi/openmpi5-gnu13/5.0.3/lib/libmpi.so.40(+0x2937cc) [0x7f12c6cfe7cc]
+12  /opt/ohpc/pub/mpi/openmpi5-gnu13/5.0.3/lib/libmpi.so.40(mca_pml_ob1_send+0x29a) [0x7f12c6d00e4a]
+13  /opt/ohpc/pub/mpi/openmpi5-gnu13/5.0.3/lib/libmpi.so.40(ompi_coll_base_sendrecv_actual+0xb5) [0x7f12c6b76925]
+14  /opt/ohpc/pub/mpi/openmpi5-gnu13/5.0.3/lib/libmpi.so.40(ompi_coll_base_allgather_intra_recursivedoubling+0x11b) [0x7f12c6b74adb]
+15  /opt/ohpc/pub/mpi/openmpi5-gnu13/5.0.3/lib/libmpi.so.40(ompi_coll_tuned_allgather_intra_dec_fixed+0x4a) [0x7f12c6bab05a]
+16  /opt/ohpc/pub/mpi/openmpi5-gnu13/5.0.3/lib/libmpi.so.40(PMPI_Allgather+0x14a) [0x7f12c6b1aaba]
+17  ./convolucao3() [0x401b91]
+18  /lib64/libc.so.6(+0x29590) [0x7f12c6522590]
+19  /lib64/libc.so.6(__libc_start_main+0x80) [0x7f12c6522640]
+20  ./convolucao3() [0x401d45]
+=================================
+--------------------------------------------------------------------------
+prterun noticed that process rank 3 with PID 67044 on node compute00 exited on
+signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

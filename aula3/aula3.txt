@@ -1,43 +1,24 @@
 
 ## 30 iterações
 
-[talesitdf@sms-host aula3]$ srun --ntasks=1 --cpus-per-task=4 --mem=500M ./convolucao
-A tarefa levou 0.449996 segundos para ser executada
 [talesitdf@sms-host aula3]$ srun --ntasks=1 --cpus-per-task=4 --mem=1024M ./convolucao
 A tarefa levou 0.446316 segundos para ser executada
 [talesitdf@sms-host aula3]$ srun --ntasks=1 --cpus-per-task=2 --mem=1024M ./convolucao
 A tarefa levou 0.872094 segundos para ser executada
-[talesitdf@sms-host aula3]$ srun --ntasks=1 --cpus-per-task=2 --mem=500M ./convolucao
-A tarefa levou 0.882619 segundos para ser executada
-[talesitdf@sms-host aula3]$ srun --ntasks=1 --cpus-per-task=1 --mem=500M ./convolucao
-A tarefa levou 1.72845 segundos para ser executada
 [talesitdf@sms-host aula3]$ srun --ntasks=1 --cpus-per-task=1 --mem=1024M ./convolucao
 A tarefa levou 1.72991 segundos para ser executada
 
 ## 50 iterações
 
-[talesitdf@sms-host aula3]$ mpic++ -fopenmp convolucao.cpp -o convolucao
 [talesitdf@sms-host aula3]$ srun --ntasks=1 --cpus-per-task=1 --mem=1024M ./convolucao
 A tarefa levou 2.88329 segundos para ser executada
 [talesitdf@sms-host aula3]$ srun --ntasks=1 --cpus-per-task=2 --mem=1024M ./convolucao
 A tarefa levou 1.46444 segundos para ser executada
 [talesitdf@sms-host aula3]$ srun --ntasks=1 --cpus-per-task=4 --mem=1024M ./convolucao
 A tarefa levou 0.738193 segundos para ser executada
-[talesitdf@sms-host aula3]$ srun --ntasks=1 --cpus-per-task=4 --mem=500M ./convolucao
-A tarefa levou 0.751432 segundos para ser executada
-[talesitdf@sms-host aula3]$ srun --ntasks=1 --cpus-per-task=2 --mem=500M ./convolucao
-A tarefa levou 1.45399 segundos para ser executada
-[talesitdf@sms-host aula3]$ srun --ntasks=1 --cpus-per-task=1 --mem=500M ./convolucao
-A tarefa levou 2.88735 segundos para ser executada
 
 ## 100 iterações
 
-[talesitdf@sms-host aula3]$ srun --ntasks=1 --cpus-per-task=1 --mem=500M ./convolucao
-A tarefa levou 5.75507 segundos para ser executada
-[talesitdf@sms-host aula3]$ srun --ntasks=1 --cpus-per-task=2 --mem=500M ./convolucao
-A tarefa levou 2.90951 segundos para ser executada
-[talesitdf@sms-host aula3]$ srun --ntasks=1 --cpus-per-task=4 --mem=500M ./convolucao
-A tarefa levou 1.49179 segundos para ser executada
 [talesitdf@sms-host aula3]$ srun --ntasks=1 --cpus-per-task=4 --mem=1024M ./convolucao
 A tarefa levou 1.48591 segundos para ser executada
 [talesitdf@sms-host aula3]$ srun --ntasks=1 --cpus-per-task=2 --mem=1024M ./convolucao
