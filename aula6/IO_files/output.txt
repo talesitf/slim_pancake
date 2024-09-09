@@ -1,0 +1,8 @@
+Peso ocupado: 10 Valor alcançado: 266 dinheiros
+0ms
+Peso ocupado: 2 Valor alcançado: 156 dinheiros
+0ms
+Peso ocupado: 95 Valor alcançado: 236 dinheiros
+0ms
+Peso ocupado: 10 Valor alcançado: 55 dinheiros
+0ms

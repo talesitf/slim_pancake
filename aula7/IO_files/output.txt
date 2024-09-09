@@ -1,0 +1,176 @@
+Fill First: 
+
+Execução 1: 
+Peso ocupado: 365 Valor alcançado: 317 dinheiros
+0ms 
+
+Execução 2: 
+Peso ocupado: 362 Valor alcançado: 313 dinheiros
+0ms 
+
+Execução 3: 
+Peso ocupado: 362 Valor alcançado: 300 dinheiros
+0ms 
+
+Execução 4: 
+Peso ocupado: 367 Valor alcançado: 285 dinheiros
+0ms 
+
+Execução 5: 
+Peso ocupado: 366 Valor alcançado: 283 dinheiros
+0ms 
+
+Probabilistic Fill: 
+
+Execução 1: 
+Peso ocupado: 370 Valor alcançado: 282 dinheiros
+0ms 
+
+Execução 2: 
+Peso ocupado: 369 Valor alcançado: 323 dinheiros
+0ms 
+
+Execução 3: 
+Peso ocupado: 372 Valor alcançado: 230 dinheiros
+0ms 
+
+Execução 4: 
+Peso ocupado: 372 Valor alcançado: 369 dinheiros
+0ms 
+
+Execução 5: 
+Peso ocupado: 379 Valor alcançado: 282 dinheiros
+0ms 
+
+Fill First: 
+
+Execução 1: 
+Peso ocupado: 235 Valor alcançado: 115 dinheiros
+0ms 
+
+Execução 2: 
+Peso ocupado: 238 Valor alcançado: 226 dinheiros
+0ms 
+
+Execução 3: 
+Peso ocupado: 239 Valor alcançado: 292 dinheiros
+0ms 
+
+Execução 4: 
+Peso ocupado: 238 Valor alcançado: 236 dinheiros
+0ms 
+
+Execução 5: 
+Peso ocupado: 237 Valor alcançado: 397 dinheiros
+0ms 
+
+Probabilistic Fill: 
+
+Execução 1: 
+Peso ocupado: 235 Valor alcançado: 487 dinheiros
+0ms 
+
+Execução 2: 
+Peso ocupado: 235 Valor alcançado: 499 dinheiros
+0ms 
+
+Execução 3: 
+Peso ocupado: 238 Valor alcançado: 329 dinheiros
+0ms 
+
+Execução 4: 
+Peso ocupado: 239 Valor alcançado: 309 dinheiros
+0ms 
+
+Execução 5: 
+Peso ocupado: 233 Valor alcançado: 320 dinheiros
+0ms 
+
+Fill First: 
+
+Execução 1: 
+Peso ocupado: 405 Valor alcançado: 3320 dinheiros
+0ms 
+
+Execução 2: 
+Peso ocupado: 405 Valor alcançado: 3320 dinheiros
+0ms 
+
+Execução 3: 
+Peso ocupado: 405 Valor alcançado: 3320 dinheiros
+0ms 
+
+Execução 4: 
+Peso ocupado: 405 Valor alcançado: 3320 dinheiros
+0ms 
+
+Execução 5: 
+Peso ocupado: 405 Valor alcançado: 3320 dinheiros
+0ms 
+
+Probabilistic Fill: 
+
+Execução 1: 
+Peso ocupado: 209 Valor alcançado: 1533 dinheiros
+0ms 
+
+Execução 2: 
+Peso ocupado: 217 Valor alcançado: 1840 dinheiros
+0ms 
+
+Execução 3: 
+Peso ocupado: 227 Valor alcançado: 1960 dinheiros
+0ms 
+
+Execução 4: 
+Peso ocupado: 203 Valor alcançado: 1676 dinheiros
+0ms 
+
+Execução 5: 
+Peso ocupado: 175 Valor alcançado: 1205 dinheiros
+0ms 
+
+Fill First: 
+
+Execução 1: 
+Peso ocupado: 600 Valor alcançado: 492 dinheiros
+0ms 
+
+Execução 2: 
+Peso ocupado: 590 Valor alcançado: 525 dinheiros
+0ms 
+
+Execução 3: 
+Peso ocupado: 588 Valor alcançado: 452 dinheiros
+0ms 
+
+Execução 4: 
+Peso ocupado: 599 Valor alcançado: 442 dinheiros
+0ms 
+
+Execução 5: 
+Peso ocupado: 598 Valor alcançado: 383 dinheiros
+0ms 
+
+Probabilistic Fill: 
+
+Execução 1: 
+Peso ocupado: 588 Valor alcançado: 444 dinheiros
+0ms 
+
+Execução 2: 
+Peso ocupado: 578 Valor alcançado: 435 dinheiros
+0ms 
+
+Execução 3: 
+Peso ocupado: 594 Valor alcançado: 409 dinheiros
+0ms 
+
+Execução 4: 
+Peso ocupado: 572 Valor alcançado: 429 dinheiros
+0ms 
+
+Execução 5: 
+Peso ocupado: 486 Valor alcançado: 419 dinheiros
+0ms 
+
