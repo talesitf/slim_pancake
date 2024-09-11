@@ -1,0 +1,20 @@
+Caso: Itens mais valiosos
+
+Heurística: bigger_first
+Tempo de execução: 3 microsegundos
+Resultado: Peso total: 100 Valor total: 3342
+
+Heurística: smaller_first
+Tempo de execução: 2 microsegundos
+Resultado: Peso total: 90 Valor total: 2949
+
+Caso: Itens mais leves
+
+Heurística: bigger_first
+Tempo de execução: 4 microsegundos
+Resultado: Peso total: 98 Valor total: 928
+
+Heurística: smaller_first
+Tempo de execução: 1 microsegundos
+Resultado: Peso total: 90 Valor total: 941
+
