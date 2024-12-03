@@ -1,0 +1,124 @@
+Measuring execution times...
+default
+****************                                                
+                ****************                                
+                                ****************                
+                                                ****************
+
+Execution 1 time: 0.000132889 seconds
+default
+****************                                                
+                ****************                                
+                                ****************                
+                                                ****************
+
+Execution 2 time: 2.25101e-06 seconds
+default
+****************                                                
+                ****************                                
+                                ****************                
+                                                ****************
+
+Execution 3 time: 2.33483e-06 seconds
+Average time for default: 4.58251e-05 seconds
+
+static
+****************                                                
+                ****************                                
+                                ****************                
+                                                ****************
+
+Execution 1 time: 2.32924e-06 seconds
+static
+****************                                                
+                ****************                                
+                                ****************                
+                                                ****************
+
+Execution 2 time: 2.23424e-06 seconds
+static
+****************                                                
+                ****************                                
+                                ****************                
+                                                ****************
+
+Execution 3 time: 2.0396e-06 seconds
+Average time for static: 2.20103e-06 seconds
+
+dynamic
+*   *   *  *   *   *  *   *   *   *  * **  *  *   *       *     
+   *   *     *    *  *       *  **  *        *     * ** **   *  
+  *  *   *  *   *   *  **  *          *   *    * *     *    *  *
+ *    *   *   *  *       *  *  *   *     *  *   *   *      *  * 
+
+Execution 1 time: 5.41843e-06 seconds
+dynamic
+*   *   *   *   *    *  *    *   *  **  *  * **   *      *     *
+   * *   *   *    *   *   *   *   *      *      *  *  **   *  * 
+ *     *  *      *  *    *  *  *   *           *    *     *  *  
+  *   *    *  **   *   *   *    *     **  * *    *   *  *   *   
+
+Execution 2 time: 3.98047e-06 seconds
+dynamic
+**      *  * *     **  *  *   *  * **   *  ** *       *       * 
+   *  *     *    **      *   * *     *          *  *   *   **   
+    *  *  *   **     *  *  *    *        **  *   *  *     *     
+  *  *   *      *     *     *     *   **       *  *  *  **   * *
+
+Execution 3 time: 3.57814e-06 seconds
+Average time for dynamic: 4.32568e-06 seconds
+
+guided
+****************                                        **      
+                ************                         ***     *  
+                            *********            ****     **  * 
+                                     ************           *  *
+
+Execution 1 time: 3.82587e-06 seconds
+guided
+                            ****************     ****   ******  
+                                                                
+****************                                     ***       *
+                ************                *****             * 
+
+Execution 2 time: 5.86826e-06 seconds
+guided
+                            *********                   **   *  
+                                     *******         ***        
+****************                                 ****       *  *
+                ************                *****         **  * 
+
+Execution 3 time: 2.83588e-06 seconds
+Average time for guided: 4.17667e-06 seconds
+
+auto
+****************                                                
+                ****************                                
+                                ****************                
+                                                ****************
+
+Execution 1 time: 2.69245e-06 seconds
+auto
+****************                                                
+                ****************                                
+                                ****************                
+                                                ****************
+
+Execution 2 time: 5.61494e-06 seconds
+auto
+****************                                                
+                ****************                                
+                                ****************                
+                                                ****************
+
+Execution 3 time: 2.06847e-06 seconds
+Average time for auto: 3.45862e-06 seconds
+
+
+===== Execution Time Summary =====
+default: 4.58251e-05 seconds
+static: 2.20103e-06 seconds
+dynamic: 4.32568e-06 seconds
+guided: 4.17667e-06 seconds
+auto: 3.45862e-06 seconds
+==================================
