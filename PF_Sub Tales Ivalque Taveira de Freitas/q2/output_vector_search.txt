@@ -1,4 +1,4 @@
-Thread 3 encontrou 1 vezes o valor 12345
-Thread 1 encontrou 0 vezes o valor 12345
+Thread 3 encontrou 0 vezes o valor 12345
 Thread 2 encontrou 0 vezes o valor 12345
 Thread 0 encontrou 2 vezes o valor 12345
+Thread 1 encontrou 1 vezes o valor 12345

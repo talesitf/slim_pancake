@@ -26,17 +26,15 @@ int main(int argc, char **argv) {
                 bola = 1;
                 posses++;
                 MPI_Send(&bola, 1, MPI_INT, 1, 0, MPI_COMM_WORLD);
-                std::cout << "Rank 0 enviou a bola para Rank 1. Posses: " << posses << std::endl;
+            } else {
+                MPI_Recv(&bola, 1, MPI_INT, 1, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
             }
-            MPI_Recv(&bola, 1, MPI_INT, 1, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
-            posses++;
-            std::cout << "Rank 0 recebeu a bola de Rank 1. Posses: " << posses << std::endl;
+
         } else if (rank == 1) {
             MPI_Recv(&bola, 1, MPI_INT, 0, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
             posses++;
-            std::cout << "Rank 1 recebeu a bola de Rank 0. Posses: " << posses << std::endl;
+            bola = 0;
             MPI_Send(&bola, 1, MPI_INT, 0, 0, MPI_COMM_WORLD);
-            std::cout << "Rank 1 enviou a bola para Rank 0. Posses: " << posses << std::endl;
         }
 
         if (posses >= 1000000) {
